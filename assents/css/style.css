@@ -3,8 +3,55 @@
      margin: 0;
     background-color: black;
     color: white;
+    font-family: 'Roboto', sans-serif;
      
  }
+ h4 h5 {
+     font-weight: 500;
+ }
+ p{
+     font-weight: 400;
+ }
+ footer  {
+     font-family: 'Commissioner', sans-serif ;
+    
+    
+     
+ }
+ 
 .navbar{
-    flex-wrap: nowrap;
+    position: absolute;
+
+}
+.navbar a {
+    font-family: 'Commissioner', sans-serif;;
+}
+
+.card img{
+    height: 140px;
+}
+
+.card{
+    margin-bottom: 2rem;
+}
+
+h4{
+    text-align: center;
+padding: 0 0 1rem 0;
+  border-bottom:  #17a2b8 groove;   
+}
+footer li {
+    list-style-type: none;
+    padding: 0.5rem;
+
+}
+footer li a i{
+    color: white;
+
+}
+footer h4{
+    border: none;
+}
+footer div {
+    justify-content: space-between;
 }
