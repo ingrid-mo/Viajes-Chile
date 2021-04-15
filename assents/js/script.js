@@ -22,7 +22,7 @@ $(function() {
 
 
       $(window).scroll(function(){
-        if ($("#menu").offset().top > 350) {
+        if ($("#menu").offset().top > 150) {
             $("#menu").addClass("bg-info");
         }
         else{
@@ -30,7 +30,7 @@ $(function() {
         }
     }); 
         $(window).scroll(function(){
-            if ($("#menu").offset().top < 350) {
+            if ($("#menu").offset().top < 50) {
                 $("#menu").addClass("bg-transparent");
             }
             else{
