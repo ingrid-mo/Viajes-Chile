@@ -14,5 +14,26 @@ $(function() {
         }
 
     })
+
+  
+        $('[data-toggle="tooltip"]').tooltip(100)
+     
+      $(window).scroll(function(){
+        if ($("#menu").offset().top > 100) {
+            $("#menu").addClass("bg-info");
+        }
+        else{
+            $("#menu").removeClass("bg-info");
+        }
+    }); 
+        $(window).scroll(function(){
+            if ($("#menu").offset().top < 100) {
+                $("#menu").addClass("bg-transparent");
+            }
+            else{
+                $("#menu").removeClass("bg-transparent");
+            }
  
-});
+}); 
+})
+      
