@@ -22,6 +22,7 @@
     font-family: 'Commissioner', sans-serif;;
 }
 
+
  .icons-section{
      background-color: #00838f;
      height: 100px;
@@ -98,7 +99,7 @@ footer{
     font-size: 700;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 736px){}
+@media only screen and (min-width: 320px) and (max-width: 736px){
 
     footer{
     width: 100%;
@@ -111,4 +112,7 @@ footer{
     footer ul {
         margin: 0 0 0 2rem;
     }
-
+    #navbarNavDropdown{
+        background-color: rgba(40, 147, 197, 0.397);
+    }
+}
